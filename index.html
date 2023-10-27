@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="data:image/png;base64,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" alt="" class="logo"
+        <ul></ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <a href="#" class="btn">Hire Me</a>
+      </nav>
+
+      <div class="info">
+        <h1>I'm SARITHA <span>S</span></h1>
+        <p>
+          - I am a responsible and hardworking individual.A fresher who wishes to equip myself with additional skills and 
+          hone my leadership skills by working with a team that enables me to develop and work hard.<br>I am good at teamwork as well in individual work.
+          An excellent academic record, ability to understand and test software, working knowledge of Azure, 
+          and a strong understanding of core internet technologies.<br>Desirous of an IT Service Management role in a challenging workplace 
+          that welcomes innovative ideas and offers growth opportunities and positive environment for accomplishing projects.
+        </p>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <div class="icons">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="images">
+        <img src="images/pattern.png" alt="" class="bg" />
+        <img src="images/girl.png" alt="" class="girl" />
+      </div>
+    </div>
+  </body>
+</html>
